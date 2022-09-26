@@ -6,7 +6,8 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;    
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("../images/trinity-library.jpg") no-repeat;
 }
 
 
@@ -15,6 +16,7 @@ body{
 }
 
 .menu-title{
+  color: white;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -22,7 +24,7 @@ body{
 .container{
  position: relative;
  top:50px;
- margin: 15px; 
+ margin: 15px;
 }
 
 .item{
@@ -51,7 +53,7 @@ body{
 
 #title-one {
   background-color: #FFC0CB;
-} 
+}
 
 #title-two{
   background-color: #800000;
@@ -65,7 +67,7 @@ body{
 /*------ Large Screen/Desktop View ------*/
 @media (min-width: 992px){
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;  
+    float: left;
   }
   .col-lg-1 {
     width: 33.33%;
@@ -114,11 +116,11 @@ body{
   }
   .col-lg-2{
    width: 50%;
-   float: left;
+    float: left;
  }
  .col-lg-3{
    width: 100%;
-   float: left;
+    float: left;
  }
 }
 
